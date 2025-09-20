@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Web Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Maps to Markets — Hari Krishna</title>
+  <meta name="description" content="A personal blog post by Hari Krishna on technology, GIS, data visualization and the stock market.">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      background: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background: #4CAF50;
-      color: white;
-      padding: 30px 0;
-    }
-    img {
-      width: 150px;
-      border-radius: 50%;
-      margin-top: 15px;
-    }
-    section {
-      padding: 20px;
-    }
-    footer {
-      background: #333;
-      color: white;
-      padding: 10px;
-      margin-top: 20px;
-    }
-    a {
-      color: #4CAF50;
-      text-decoration: none;
-    }
+    :root{--bg:#f7f8fb;--card:#ffffff;--accent:#2b7a78;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a;line-height:1.6}
+    .container{max-width:900px;margin:48px auto;padding:24px}
+    header.site{display:flex;gap:20px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,#c7f9cc,#98c1d9);display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;font-size:28px}
+    h1{margin:0 0 8px;font-size:28px}
+    .subtitle{color:var(--muted);margin:0 0 18px}
+    .card{background:var(--card);padding:28px;border-radius:14px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .meta{display:flex;gap:12px;align-items:center;color:var(--muted);font-size:14px;margin-bottom:14px}
+    .tags{margin-top:12px}
+    .tag{display:inline-block;background:#eef6f6;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px;margin-right:8px}
+    article p{margin:14px 0}
+    .cta{margin-top:22px;padding:14px;border-radius:10px;background:#f1f9f8;border:1px solid rgba(43,122,120,0.06);display:flex;justify-content:space-between;align-items:center}
+    .cta button{background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:640px){.container{margin:20px;padding:16px}.avatar{width:72px;height:72px;font-size:22px}}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Hari Krishna Gandham</h1>
-    <p>Accomplished professional with 12+ years of experience in IT, GIS Engineering, Data Visualization, and Business Management, complemented by 2 years of exposure to the stock market.</p>
-  </header>
+  <div class="container">
+    <header class="site">
+      <div class="avatar">HK</div>
+      <div>
+        <h1>From Maps to Markets: My Journey Through Technology, GIS, and the Stock Market</h1>
+        <p class="subtitle">By <strong>Hari Krishna</strong> • IT, GIS & Data Visualization • 12+ years experience</p>
+      </div>
+    </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Accomplished professional with 12+ years of experience across IT, GIS Engineering, Data Visualization, and Business Management. Expertise in Tableau dashboards, GIS-based mapping, and strategic leadership with proven success in managing global projects for clients including Apple and Hydro One. Skilled at driving operational efficiency, revenue growth, and team development across diverse industries in India and abroad.</p>
-  </section>
+    <main class="card">
+      <div class="meta">
+        <div>📅 Published: September 20, 2025</div>
+        <div>•</div>
+        <div>⏱️ Reading time: 3 min</div>
+      </div>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Strong GIS expertise with ArcGIS, AutoCAD, and FusionX.</li>
-      <li>Adept in Tableau for advanced dashboards and visualization.</li>
-      <li>Experienced in mentoring and team quality control</li>
-      <li>IT Project Management</li>
-    </ul>
-  </section>
+      <article>
+        <p>When I started my career 12 years ago, I never imagined how <strong>technology, data, and strategy</strong> would shape not just my profession but also my perspective on life. My work in <strong>IT and GIS Engineering</strong> introduced me to a world where maps tell powerful stories and data unlocks hidden opportunities.</p>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:harikrishnagandham4@gmail.com">harikrishnagandham4@gmail.com</a></p>
-    <p>Phone: +91 8143509036</p>
-  </section>
+        <p>Over the years, I’ve worked with global leaders like <strong>Apple</strong> and <strong>Hydro One</strong>, building data visualization dashboards, GIS-based solutions, and business strategies that drive real impact. Every project taught me one thing — the way we see and interpret information can change decisions, businesses, and even industries.</p>
 
-  <footer>
-    <p>© 2025 Hari Krishna Gandham | All Rights Reserved</p>
-  </footer>
+        <p>But my journey didn’t stop at technology. Along the way, I discovered a passion for the <strong>stock market</strong>. For the last two years, I’ve been exploring how financial data mirrors real-life strategy — patience, timing, and discipline are as important in markets as they are in managing global projects.</p>
+
+        <p>This blog is my space to share:</p>
+        <ul>
+          <li>Practical lessons from IT, GIS, and data visualization</li>
+          <li>Insights on business strategy and leadership</li>
+          <li>My experiences in the stock market — wins, mistakes, and learnings</li>
+          <li>Personal growth stories from working across India and abroad</li>
+        </ul>
+
+        <p>If you’re someone who believes that <strong>data + discipline = growth</strong>, then you’ll feel right at home here. 🚀</p>
+
+        <div class="cta">
+          <div>Subscribe for weekly posts on maps, markets, and management.</div>
+          <button onclick="alert('Thanks for subscribing! (Add your mail form later)')">Subscribe</button>
+        </div>
+
+      </article>
+
+      <div class="tags">
+        <span class="tag">#GIS</span>
+        <span class="tag">#DataViz</span>
+        <span class="tag">#StockMarket</span>
+        <span class="tag">#Leadership</span>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>© 2025 Hari Krishna Gandham — <a href="mailto:harikrishnagandham4@gmail.com">Contact</a></p>
+    </footer>
+  </div>
 </body>
 </html>
